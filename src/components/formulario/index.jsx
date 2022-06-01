@@ -150,7 +150,7 @@ export default function Formulario(){
   <form onSubmit={handleSubmit(onSubmit)}>
     <section className={styles.container}>
       <a href="/" className={[styles.boxBlock, formBlock ? styles.active : ""].join(' ')}>
-        <svg width="63" height="54" viewBox="0 0 63 54" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9 27C9 12.09 21.09 0 36 0C50.91 0 63 12.09 63 27C63 41.91 50.91 54 36 54C28.53 54 21.81 50.97 16.92 46.08L21.18 41.82C24.96 45.63 30.21 48 36 48C47.61 48 57 38.61 57 27C57 15.39 47.61 6 36 6C24.39 6 15 15.39 15 27H24L11.88 39.09L11.67 38.67L0 27H9ZM33 30V15H37.5V27.75L48 33.99L45.84 37.62L33 30Z" fill="#828D8C"/></svg>
+        <svg width="63" height="54" viewBox="0 0 63 54" fill="none" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" clipRule="evenodd" d="M9 27C9 12.09 21.09 0 36 0C50.91 0 63 12.09 63 27C63 41.91 50.91 54 36 54C28.53 54 21.81 50.97 16.92 46.08L21.18 41.82C24.96 45.63 30.21 48 36 48C47.61 48 57 38.61 57 27C57 15.39 47.61 6 36 6C24.39 6 15 15.39 15 27H24L11.88 39.09L11.67 38.67L0 27H9ZM33 30V15H37.5V27.75L48 33.99L45.84 37.62L33 30Z" fill="#828D8C"/></svg>
         <div>Reiniciar<br/><small>Novo cadastro</small></div>
       </a>
       <header>
@@ -224,7 +224,7 @@ export default function Formulario(){
         <TextField 
           id="laboratorioSelect"
           select 
-          defautlValue={valuesLab.currenty}
+          defaultValue={valuesLab.currenty}
           inputProps={{ onChange: handleChangeLab }}
           label="Laboratório *"
           SelectProps={{ 
