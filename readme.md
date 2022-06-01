@@ -1,5 +1,3 @@
-
-
 # Teste Front-end Plataforma
 Teste para Front end do time plataforma.
 
@@ -12,8 +10,11 @@ Teste para Front end do time plataforma.
 - vite
 - React
 - html / css 
+- Style-conponents (componente: ActionAlert)
 - Material-UI
-`
+- React Hook form
+
+
 # Resultado do formulario
 ```
 {
@@ -21,7 +22,7 @@ Teste para Front end do time plataforma.
     "nome": "Jonathan Veturim Dias",
     "dataInicio": "2022-04-15",
     "dataFinal": "2022-05-01",
-    "propriedade": {
+    "infosPropriedade": {
         "id": "10003",
         "nome": "Agrotis 3",
         "cnpj": "04.909.987/0001-87"

@@ -95,7 +95,7 @@ export default function Formulario(){
         nome, 
         dataInicio, 
         dataFinal, 
-        propriedade: {
+        infosPropriedade: {
           id: selectPropriedade.id,
           nome: selectPropriedade.nome, 
           cnpj: selectPropriedade.cnpj, 
