@@ -1,0 +1,25 @@
+
+:root{
+  --white: #FFF;
+
+  --black-200:#828D8C;
+  --black-100:#F3F2F1;
+
+  --prim-800:#00796B;
+  --prim-700:#00A98E;
+}
+
+*{ box-sizing:border-box; -webkit-font-smoothing:antialiased;  scroll-behavior: smooth; }
+
+.App {
+  padding:0 0 20px;
+  min-height:100vh;
+  background:var(--black-100);
+}
+
+p.Mui-error::before{ 
+  display:inline-flex;
+  content:'\26A0';  
+  font-size: 16px;
+  margin-right:5px;
+}
