@@ -1,5 +1,5 @@
 # Teste Front-end Plataforma
-Teste para Front end do time plataforma.
+Teste para Front-end do time Agrotis.
 
 # Rodar o projeto
 - Basta baixar e rodar o comando 'yarn' 
