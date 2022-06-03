@@ -5,6 +5,7 @@ import { MenuItem, TextField } from '@material-ui/core'
 import { ActionAlerts } from '../'
 
 import styles from './formulario.module.css'
+import Botao from "../Botao";
 
 const propriedade = [
   {
