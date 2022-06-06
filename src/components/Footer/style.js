@@ -5,8 +5,6 @@ export const Container = styled.section`
   display:flex;
   gap:20px;
   justify-content:center;
-  bottom:0px;
-  left:0px;
   width:100%;
   background:var(--prim-800, ${props => props.bg ? color[`${props.bg}`] : color["prim800"]});
   color:var(--white, ${color.white});

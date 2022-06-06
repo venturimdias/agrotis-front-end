@@ -6,17 +6,24 @@ export default {
   component: Botao,
 }
 
-const Template = (args) => <Botao {...args} />;
+const Template = (args) => <Botao {...args} />
 
-export const Prim = Template.bind({});
-Prim.args = {
+export const Large = Template.bind({})
+Large.args = {
   label: 'Button label',
   outline: true,
-  className: 'sm',
+  className: 'lg',
+  onClick: () => alert("cliquei no botão")
 };
 
-export const Sec = Template.bind({});
-Sec.args = { 
+export const Medium = Template.bind({})
+Medium.args = { 
   label: 'Button label',
-  className: 'large'
+  className: 'md',
 };
+
+export const Small = Template.bind({})
+Small.args = { 
+  label: 'Button label',
+  className: 'sm',
+}

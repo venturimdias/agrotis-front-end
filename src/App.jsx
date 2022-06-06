@@ -1,5 +1,6 @@
 import './styles/App.css'
 import { Header, Formulario, Footer } from './components'
+import GlobalStyle from "./styles/global"
 import styled from "styled-components"
 
 const ContFooter = styled.footer`
@@ -16,8 +17,8 @@ function App() {
         <ContFooter>
           <Footer />
         </ContFooter>
+        <GlobalStyle />
     </div>
   )
 }
-
 export default App

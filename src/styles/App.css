@@ -9,14 +9,6 @@
   --prim-700:#00A98E;
 }
 
-*{ box-sizing:border-box; -webkit-font-smoothing:antialiased;  scroll-behavior: smooth; }
-
-.App {
-  padding:0 0 20px;
-  min-height:100vh;
-  background:var(--black-100);
-}
-
 p.Mui-error::before{ 
   display:inline-flex;
   content:'\26A0';  

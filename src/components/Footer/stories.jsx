@@ -4,10 +4,11 @@ import Footer from './'
 export default {
   title: 'Footer',
   component: Footer,
+  parameters: {
+    layout: 'fullscreen',
+  },
 }
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-// export const Template = (args) => <Header {...args} />
 const Template = (args) => <Footer {...args} />;
 
 export const Defualt = Template.bind({});
