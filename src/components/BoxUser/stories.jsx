@@ -2,7 +2,7 @@ import { ClassNames } from '@emotion/react';
 import BoxUser from './'
 
 export default {
-  title: 'BoxUser',
+  title: 'Agrotis/BoxUser',
   component: BoxUser,
   // parameters: {
   //   layout: 'fullscreen',

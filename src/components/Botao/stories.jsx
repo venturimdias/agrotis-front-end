@@ -2,7 +2,7 @@ import React from 'react'
 import Botao from './'
 
 export default {
-  title: 'Botao',
+  title: 'Agrotis/Botao',
   component: Botao,
 }
 
