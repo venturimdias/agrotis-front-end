@@ -15,7 +15,7 @@ Teste para Front-end do time Agrotis.
 - React Hook form
 - Storybook
 
-# Resultado do formulario
+# Resultado do formulário
 ```
 {
     

@@ -1,3 +1,15 @@
+const button = {
+  padding: {
+    sm: "0 15px",
+    md: "0 25px",
+    lg: "0 35px",
+  },
+  height: {
+    sm: "25px",
+    md: "35px",
+    lg: "45px",
+  }
+}
 export const theme = {
   color:{
     white: "#FFF",
@@ -6,18 +18,7 @@ export const theme = {
     prim800:"#00796B",
     prim700:"#00A98E",
   },
-  button: {
-    padding: {
-      sm: "0 15px",
-      md: "0 25px",
-      lg: "0 35px",
-    },
-    height: {
-      sm: "25px",
-      md: "35px",
-      lg: "45px",
-    }
-  }
+  button
 }
 export const themeDark = {
   color:{
@@ -27,16 +28,5 @@ export const themeDark = {
     prim800:"#2F2F2F",
     prim700:"#6E6E6E",
   },
-  button: {
-    padding: {
-      sm: "0 15px",
-      md: "0 25px",
-      lg: "0 35px",
-    },
-    height: {
-      sm: "25px",
-      md: "35px",
-      lg: "45px",
-    }
-  }
+  button
 }
