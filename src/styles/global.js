@@ -8,7 +8,7 @@ export const color = {
   prim700:"#00A98E",
 }
 
-export default createGlobalStyle`
+export const GlobalStyled = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
@@ -25,7 +25,6 @@ export default createGlobalStyle`
 
   body, input, button, select, textarea {
     font: 14px 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
-    color:red;
   }
 
   code {
@@ -39,6 +38,7 @@ export default createGlobalStyle`
   .App {
     padding:0 0 20px;
     min-height:100vh;
-    background:var(--black-100, ${color.black100});
+    background: ${({theme}) => theme.color.black100};
+    /* background:var(--black-100, ${color.black100}); */
   }
 `

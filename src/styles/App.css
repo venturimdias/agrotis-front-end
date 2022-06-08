@@ -1,4 +1,4 @@
-
+/*
 :root{
   --white: #FFF;
 
@@ -7,7 +7,7 @@
 
   --prim-800:#00796B;
   --prim-700:#00A98E;
-}
+}*/
 
 p.Mui-error::before{ 
   display:inline-flex;
