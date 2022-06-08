@@ -10,10 +10,10 @@ Teste para Front-end do time Agrotis.
 - vite
 - React
 - html / css 
-- Style-conponents (componente: ActionAlert)
+- Style-conponents (Tema: Light | Dark)
 - Material-UI
 - React Hook form
-
+- Storybook
 
 # Resultado do formulario
 ```
