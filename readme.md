@@ -1,13 +1,14 @@
-# Teste Front-end Plataforma
-Teste para Front-end do time Agrotis.
+# Formulário
+Front-end com Material-UI.
 
-# Rodar o projeto
-- Basta baixar e rodar o comando 'yarn' 
-- logo em seguida 'yarn dev'
-- Preencha os campos e verifique no console o resultado
+# Projeto
+## Setup do projeto
+``` yarn ```
+## Copilar em desenvolvimento
+``` yarn dev ```
 
 # Recursos utilizados
-- vite
+- Vite
 - React
 - html / css 
 - Style-conponents (Tema: Light | Dark)
